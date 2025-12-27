@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #8b0000, #ff4d4d);
+}
+
+.mainPage {
+  width: 900px;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.paragraph {
+  width: 50%;
+  padding: 60px 50px;
+}
+
+.paragraph h1 {
+  color: #b30000;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.formField input {
+  margin-top: 6px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.formField input:focus {
+  border-color: #cc0000;
+  outline: none;
+}
+
+.error {
+  color: #cc0000;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.rem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.submitBtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #cc0000;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background: #a00000;
+  transform: translateY(-2px);
+}
+
+.signup {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.sideImage {
+  width: 50%;
+  object-fit: cover;
+}
